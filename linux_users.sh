@@ -18,3 +18,17 @@ else
 	echo "Only root may add a user to the system"
 	exit 2
 fi
+bug.txt
+index.html
+linux_users.sh
+Readme.md
+toto
+websilt.log
+windows_users.ps1
+bug.txt
+index.html
+linux_users.sh
+Readme.md
+toto
+websilt.log
+windows_users.ps1
