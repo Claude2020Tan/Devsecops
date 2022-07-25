@@ -5,6 +5,7 @@ if [ $(id -u) -eq 0 ]; then
 	read -s -p "Bienvenu chez IB cegos, Merci d'Enter votre password ? : " password
 	egrep "^$username" /etc/passwd >/dev/null
 	echo "bonjour"
+	echo"c'est la deuxième fois"
 	if [ $? -eq 0 ]; then
 		echo "$username exists!"
 		exit 1
